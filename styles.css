@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffefd5; /* Light pastel background */
+    color: #333333; /* Dark text for contrast */
+    margin: 0;
+    padding: 0;
+}
+.quiz-container {
+    max-width: 600px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Gradient background */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.btn-option {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #ff6f61; /* Vibrant button color */
+    color: #ffffff;
+}
+.btn-option.correct {
+    background-color: #4caf50 !important; /* Green for correct */
+    color: #fff;
+}
+.btn-option.wrong {
+    background-color: #f44336 !important; /* Red for wrong */
+    color: #fff;
+}
+.btn-option:hover {
+    background-color: #ff8a65; /* Lighter hover effect */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+.btn-warning {
+    background-color: #ffcc00; /* Bright yellow */
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-warning:hover {
+    background-color: #ffb300; /* Slightly darker yellow */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
